@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prayer">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/lolololololol"
+
+                />
+            <LinearLayout
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/nama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name"
+                            android:textColorHint="#0d5271"
+                            android:inputType="text"/>
+                        <EditText
+                            android:layout_marginTop="9dp"
+                            android:id="@+id/alamat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Address"
+                            android:textColorHint="#0d5271"
+                            android:inputType="textLongMessage"/>
+                        <EditText
+                            android:layout_marginTop="9dp"
+                            android:id="@+id/telp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Phone Number"
+                            android:textColorHint="#0d5271"
+                            android:inputType="number"/>
+
+                        <EditText
+                            android:layout_marginTop="9dp"
+                            android:id="@+id/typeofroder"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:hint="Message"
+                            android:textColorHint="#0d5271"
+                            android:inputType="text"/>
+                        <Button
+                            android:layout_marginTop="9dp"
+                            android:onClick="pesan"
+                            android:background="@color/colorPrimary"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Via email"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

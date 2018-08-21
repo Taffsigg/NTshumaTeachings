@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "145661041136",
+    "firebase_url": "https://ntshumateachings.firebaseio.com",
+    "project_id": "ntshumateachings",
+    "storage_bucket": "ntshumateachings.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145661041136:android:24589a19202a0b8f",
+        "android_client_info": {
+          "package_name": "com.obcom.ntshumateachings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145661041136-b4ser2eq7jiu11uh4ral3jobmep60p2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBizfvLRX0cvG-_NE46_Q6PHpbOTHWngq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
